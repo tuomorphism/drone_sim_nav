@@ -1,0 +1,6 @@
+# The virtual python env
+.venv/
+.python-version
+
+# outputted data
+data/
