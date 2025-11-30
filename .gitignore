@@ -4,3 +4,10 @@
 
 # outputted data
 data/
+blog/data.npz
+
+# pycache
+*/**/__pycache__/
+
+# Media
+blog/media/

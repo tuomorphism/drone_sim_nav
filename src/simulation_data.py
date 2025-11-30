@@ -21,14 +21,6 @@ class DroneSimData:
     goal_traj: np.ndarray
     obstacles: np.ndarray
 
-    @property
-    def n_steps(self) -> int:
-        return self.trajectory.shape[0]
-
-    @property
-    def duration(self) -> float:
-        return float(self.timesteps[-1] - self.timesteps[0])
-
     def to_npz(self, path: str) -> None:
         """
         Save the simulation data to an .npz file.
